@@ -1,0 +1,26 @@
+Overall I found the tasks to be somewhat challenging, but not insurmountable. Overtime I was
+able to really understand how the program iterates through lists index by index and work out
+exactly where and why a piece of code was failing or going out of bounds. In general I tried
+to stick to the initial designs we came up with (even differing to them when I got stuck and 
+finding them to be far more helpful than playing around with code) although there were times 
+when the design did not quite match what was possible to code (at least with the knowledge 
+that I currently possess). I would say that hardest part was actually understanding the 
+original structure of the methods we were given, as I don't believe we've coded methods that
+way before. This meant that I was unsure about how the program based information into the 
+methods and what values to return, but I was able to look past that and solve the tasks at 
+hand regardless.
+
+Question 17 was, at first, too vague and difficult to make a design for. However, after it 
+became evident that the original sort code would have to iterate n*n times, (and with a bit 
+of pre-acquired knowledge about sorting) I was able to find a solution that should theoreti-
+cally have far fewer calculations to make. Question 18 seems strange because it did not seem
+difficulty enough to warrant extending this report for, unless we were meant to add extra 
+bits of code to capitalize the first letter and do the reverse for the last, but since the 
+wording was vague I wasn't sure if that was necessary.  
+
+I feel as though our knowledge about GUIs should have been tested at some point, as each of
+these tasks could have been completed through the console. That would have brought together 
+the object oriented programming concepts that are vital to software development. Also I was
+not sure if I was allowed to call methods I had already made (or if it was even possible 
+with the way it was set up) but that also seems like it would have been import to know how
+to for real world programming. 

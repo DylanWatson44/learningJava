@@ -1,0 +1,6 @@
+1.To find the team names, we'll create an arraylist and use the scanner tool to scan the first line
+and assign this to a string array list. Then the next scan line will be assigned to a coach list,
+and the line after that gets stored as the number of players. This is important, as it defines how
+many times we have to loop through assigning the next 3 lines to each player on that team, stopping
+just in time to take the next line after as the next team and repeating the process. We'll need a list
+of players and coachs, and to assign a player list to each team object.

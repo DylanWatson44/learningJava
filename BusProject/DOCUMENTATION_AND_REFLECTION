@@ -1,0 +1,24 @@
+DOCUMENTATION
+Sorry, couldn't figure out how to get the url to work without directly pointing to the file location, you'll have to modify it to
+point to where ever you save my JAR.
+
+The program is run through the BusClient class, which creates an instance of the BusHandler. All methods have been 
+documented with descriptions and parameters where appropriate.
+
+My ER diagram is highly simplistic but is just there to show the general idea of how the database is set up.
+Currently the queries coded in the BusHandler do not need some of the original designed entities outlined
+in the diagram, and as such are not completely filled out in the database. For the purpose of this exercise the
+main relationships are those between Disruption, RouteDisruptions, and Route, where RouteDisruptions is the linking table
+storing the many to many relationship between the other two entities.  	 
+						
+REFLECTION
+If I were to expand upon this design I would make it so that Disruptions happen to BusStops instead of routes, and then
+Routes have a transient relationship with disruptions. I would make it so that at a push of a button, I could simulate 
+a disruption, have that disruption affect several stops at random, and then allow my java program to automatically update
+which routes were available or not (as well the buses associated with those routes), as well make inserting the new disruption
+data in the appropriate tables. This, along with some other more sophisticated changes, would bring this model closer to being
+actually usable as a planner in an emergency, but as it stands this program falls woefully short of being that useful. That 
+being said, at least the program is somewhat modular, with the ability to change certain query attributes such as the number
+of years backward you can search with the last query being a good example.
+
+

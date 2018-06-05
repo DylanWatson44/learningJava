@@ -1,0 +1,36 @@
+1.You would declare a new ArrayList and use a for each loop to iterate over the original arraylist, doubling it each time and use .set to save the doubled numbers in the new arraylist
+
+2.Similar to previous question, but you would use toUpperCase() instead of a doubling function.
+
+3.first, convert the string into characters, then into those characters into an arraylist, then use a function to reverse the arraylist, then check if the new arraylist matches the first one. the boolean would be set at the beginning to true and only set it false if the arrays don't match.
+
+4.create a for each that iterates over the array, using the startsWith method to check if the prefix is there, if true then add it to the new arraylist 
+
+5.Create a new variable (T for example), then loop over the array and add the indexes to T and set T to the sum of that, then return T 
+
+6.Use an if statement within a for loop to check if index i is greater than index(i+1), if it is, then return false.
+
+7.Create a new arraylist(arraylist3). iterate through list 1 and 2, checking if index i(in list 1) .equals index j(in list j), if it returns true, add it to list 3.
+
+8. similar to last question, but this time each i has to be checked at each j using nested for loops.
+
+9.create a new arraylist, loop through the indexes of the old arraylist, checking if they match any thing in the new arraylist with .contains, if it doesnt, then add that index to the new arraylist
+
+10.Same as 8, but this time you only add the index from list 1 to list 3 if index of list 1 DOESNT match anything in 2  
+
+11.using 2 sets of nested for loops, you would go through each list, checking against the other list, only adding an index to the new list if they dont match an index in the other list.
+
+12.iterate through half the list, store [i] in a temp variable, set i to .size-1 , then set .size-i to temp
+
+13.[i] = array[math.random()*(n+i)] with a loop 
+
+14.convert words into chars using a loop, insert those into arraylists, if .size for list1 equals .size list2, then check that the indexes of list 1 have a matching index somewhere in list 2, if all indexes have a match return true
+
+15.for i (starting at 2) up until .length - 3 (create array of i-2 to i+2, then iterate over that to set the biggest and smallest value to NULL, then sum the remaining 3 numbers and divide by 3, put that average into an arraylist)
+
+16.write the loop from part 6 to check if the list is ordered, if not then run through a loop that swaps adjacent pairs(if those pairs not ordered), then starts again and checks if the list is ordered and so on.
+
+Designs by:
+Dylan Watson,
+Tim Anderson
+Kaitlin Maddever 

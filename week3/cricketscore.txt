@@ -1,0 +1,5 @@
+Kane Williamson 176 1 2 130 0 2 104 53 42 13
+Virat Kohli 6 15 12 13 0 38 204 15 235 6
+Steve Smith 17 111 21 178 28 8 109 27 59 24
+AB_De Villiers 36 88 37 49 43 42 9 0 85 16
+Joe Root 6 88 77 21 78 15 25 53 4 124

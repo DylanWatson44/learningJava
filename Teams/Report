@@ -1,0 +1,17 @@
+One thing I found was that it was a lot easier to make a type hierarchy that only went one way for
+objects. This meant that 'Team' objects could store coach and player objects, but player and coach
+objects could hold the their respective team objects at the same time (it may be possible to set up, but
+it was easier to just store the string of the teams).  
+
+After this exercise I found that I had a much better understanding of how objects work, and how we can
+call multiple methods on one line as we change the object type in question with various getter methods.
+This was useful when we wanted to execute something on every player for a team instance. 
+
+I'm still not entirely sure why interfaces are useful, except to store multiple different classes into
+one array. But I suppose that useful enough in and of itself.
+
+It was very hard to make designs beforehand, I found that it was easier to play around with the code
+and discover what was possible before writing what my plans were.
+This shouldn't be the case if I had to do another similar assignment in the future however, as now I
+have a much better understanding of what methods I can implement with a coding structure like this. 
+ 
